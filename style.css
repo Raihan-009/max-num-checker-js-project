@@ -86,12 +86,16 @@ body .background .content .submit-button button {
   opacity: 0.6;
 }
 
-body .background .output p {
+body .background .content .submit-button .active {
+  opacity: 1;
+}
+
+body .background .output {
   font-size: 20px;
   text-align: center;
 }
 
-body .background .output p span {
+body .background .output span {
   color: #5bacef;
 }
 /*# sourceMappingURL=style.css.map */

@@ -57,15 +57,18 @@ body{
                     font-size: 18px;
                     opacity: 0.6;
                 }
+                .active{
+                    opacity: 1;
+                }
             }
+            
+            
         }
         .output{
-            p{
-                font-size: 20px;
-                text-align: center;
-                span{
-                    color: rgb(91, 172, 239);
-                }
+            font-size: 20px;
+            text-align: center;
+            span{
+                color: rgb(91, 172, 239);
             }
         }
     }
