@@ -28,10 +28,12 @@ digitThree.addEventListener("keyup", () => {
     return submitButton.classList.add("active");
   }
   submitButton.classList.remove("active");
+  outputText.style.display = "none";
   //console.log(filterDigit3);
 });
 let maxNumber;
 submitButton.addEventListener("click", () => {
+  outputText.style.display = "block";
   // console.log("Clicked");
   if (filterDigit1 >= filterDigit2 && filterDigit1 >= filterDigit3) {
     maxNumber = filterDigit1;
