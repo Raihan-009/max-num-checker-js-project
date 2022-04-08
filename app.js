@@ -28,7 +28,7 @@ digitThree.addEventListener("keyup", () => {
     console.log(numbersArray);
     return (submitButton.disabled = false);
   }
-  submitButton.classList.remove("active");
+  submitButton.disabled = true;
   outputText.style.display = "none";
   //console.log(filterDigit3);
 });
