@@ -1,7 +1,8 @@
 const digitOne = document.querySelector(".digit1");
 const digitTwo = document.querySelector(".digit2");
 const digitThree = document.querySelector(".digit3");
-const submitButton = document.querySelector(".submission");
+const submitButton = document.querySelector("button");
+submitButton.disabled = true;
 const outputText = document.querySelector(".output");
 let numbersArray = [];
 
@@ -25,7 +26,7 @@ digitThree.addEventListener("keyup", () => {
   numbersArray.push(filterDigit3);
   if (filterDigit1 && filterDigit2 && filterDigit3) {
     console.log(numbersArray);
-    return submitButton.classList.add("active");
+    return (submitButton.disabled = false);
   }
   submitButton.classList.remove("active");
   outputText.style.display = "none";

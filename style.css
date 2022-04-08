@@ -100,10 +100,6 @@ body .background .content .submit-button button {
   border-radius: 5px;
   padding: 5px;
   font-size: 18px;
-  opacity: 0.6;
-}
-
-body .background .content .submit-button .active {
   opacity: 1;
 }
 
