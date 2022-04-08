@@ -1,3 +1,4 @@
+@import "./breakpoints.scss";
 body{
     background-color: rgb(91, 172, 239);
     display: flex;
@@ -43,7 +44,13 @@ body{
                     &::placeholder{
                         text-align: center;
                     }
+                    @include media("<=sm"){
+                        text-align: center;
+                    }
                 }
+                @include media("<=sm"){
+                        text-align: center;
+                    }
             }
             .submit-button{
                 button{

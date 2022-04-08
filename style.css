@@ -1,3 +1,8 @@
+/**
+*
+* Testing
+*
+**/
 body {
   background-color: #5bacef;
   display: -webkit-box;
@@ -72,6 +77,18 @@ body .background .content .input-form input::-ms-input-placeholder {
 
 body .background .content .input-form input::placeholder {
   text-align: center;
+}
+
+@media (max-width: 576px) {
+  body .background .content .input-form input {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  body .background .content .input-form {
+    text-align: center;
+  }
 }
 
 body .background .content .submit-button button {
